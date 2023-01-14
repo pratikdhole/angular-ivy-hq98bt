@@ -1,0 +1,11 @@
+table th,
+table td {
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid #ccc;
+}
+
+th {
+  border: 1px solid #ccc;
+}
