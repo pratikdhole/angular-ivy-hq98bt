@@ -1,13 +1,14 @@
-table th,
-table td {
+table {
   border-collapse: collapse;
 }
-td {
+
+table {
   border: 1px solid #ccc;
 }
-
-th {
+th,
+td {
   border: 1px solid #ccc;
+  text-align: center;
 }
 
 .btnsection button {
