@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Pratik",
+    "address": "Delhi",
+    "hobbies": ["Movies", "Movies", "Cars"]
+  },
+  {
+    "id": 2,
+    "name": "Sagar",
+    "address": "Delhi",
+    "hobbies": ["Movies", "Movies", "Cars"]
+  },
+  {
+    "id": 3,
+    "name": "Namrata",
+    "address": "Delhi",
+    "hobbies": ["Movies", "Movies", "Cars"]
+  },
+  {
+    "id": 4,
+    "name": "Sahil",
+    "address": "Delhi",
+    "hobbies": ["Movies", "Movies", "Cars"]
+  }
+]

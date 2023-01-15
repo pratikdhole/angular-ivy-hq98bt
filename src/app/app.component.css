@@ -9,3 +9,11 @@ td {
 th {
   border: 1px solid #ccc;
 }
+
+.btnsection button {
+  margin: 10px 10px;
+  padding: 10px;
+  background: rgb(201, 250, 181);
+  border: none;
+  cursor: pointer;
+}
