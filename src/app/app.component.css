@@ -17,3 +17,8 @@ th {
   border: none;
   cursor: pointer;
 }
+
+.formatText {
+  background-color: blue;
+  color: #fff;
+}

@@ -1,27 +1,27 @@
 <div>
   <form>
     <div *ngIf="hidetextbox">
-    <div class="formInput">
-      <label for="#">Find info</label>
-      <div class="form-control">
-        <input type="text" />
+      <div class="formInput">
+        <label for="#">Find info</label>
+        <div class="form-control">
+          <input type="text" />
+        </div>
       </div>
-    </div>
-    <div class="formInput">
-      <label for="#">Format text box</label>
-      <div class="form-control">
-        <input type="text" />
+      <div class="formInput">
+        <label for="#">Format text box</label>
+        <div class="form-control">
+          <input type="text" />
+        </div>
       </div>
-    </div>
     </div>
     <div style="margin:10px auto" class="btnsection">
       <button class="" (click)="findInfo()">Find Info</button>
-      <button>Format text box</button>
+      <button (click)="formatTextBox()">Format text box</button>
     </div>
   </form>
 </div>
 
-<table width="100%" >
+<table width="100%" [ngClass]="[formattext ? 'formatText' : 'unformat']">
   <thead>
     <tr>
       <th>Friends store id</th>
@@ -32,7 +32,7 @@
   </thead>
 
   <tbody *ngIf="findInfos">
-    <tr *ngFor="let item of usserdata" >
+    <tr *ngFor="let item of usserdata">
       <td>{{ item.id }}</td>
       <td>{{ item.name }}</td>
       <td>{{ item.address }}</td>

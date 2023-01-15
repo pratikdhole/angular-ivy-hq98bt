@@ -11,6 +11,7 @@ export class AppComponent {
   usserdata: any = [];
   findInfos: boolean = false;
   hidetextbox: boolean = true;
+  formattext: boolean = false;
   constructor(private frindsservice: FriendsService) {}
 
   ngOnInit() {}
@@ -22,5 +23,9 @@ export class AppComponent {
       this.findInfos = true;
       this.hidetextbox = false;
     });
+  }
+
+  formatTextBox() {
+    this.formattext = true;
   }
 }
